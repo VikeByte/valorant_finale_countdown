@@ -12,10 +12,18 @@
     height:100%;
 }
 
+@font-face {
+    font-family: 'valorant';
+    src: url(../fonts/valorant.ttf);
+}
+
+* {
+    font-family: 'valorant';
+}
+
 .header-1 {
     font-size: 100px;
     color: white;
-    font-family:'VALORANT', Times, serif;
     text-align: center;
     margin-top: 100px;
 }
@@ -23,7 +31,6 @@
 .header-2 {
     font-size: 130px;
     color: white;
-    font-family:'VALORANT', Times, serif;
     text-align: center;
     margin-top: 180px;
 }
@@ -31,7 +38,6 @@
 .header-3 {
     font-size: 70px;
     color: white;
-    font-family:'VALORANT', Times, serif;
     text-align: center;
     margin-top: 100px;
 }
