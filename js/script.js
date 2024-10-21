@@ -13,7 +13,7 @@ var x = setInterval(function() {
     
   document.getElementById("days-num").innerHTML = days + "d ";
   document.getElementById("hours-num").innerHTML = hours + "h ";
-  document.getElementById("mins-num").innerHTML = days + "m ";
+  document.getElementById("mins-num").innerHTML = minutes + "m ";
   document.getElementById("secs-num").innerHTML = seconds + "s ";
     
   if (distance < 0) {
