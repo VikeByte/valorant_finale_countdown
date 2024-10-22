@@ -1,4 +1,4 @@
-var countDownDate = new Date("OCT 23, 2024 12:15:00").getTime();
+var countDownDate = new Date("OCT 22, 2024 13:01:00").getTime();
 
 var x = setInterval(function() {
 
@@ -18,6 +18,9 @@ var x = setInterval(function() {
     
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("days-num").innerHTML = "EXPIRED";
+    document.getElementById("days-num").innerHTML = "0";
+    document.getElementById("hours-num").innerHTML = "0";
+    document.getElementById("mins-num").innerHTML = "0";
+    document.getElementById("secs-num").innerHTML = "0";
   }
 }, 1000);
