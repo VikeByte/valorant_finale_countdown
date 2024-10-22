@@ -44,12 +44,15 @@
 
 #days-num, #hours-num, #mins-num, #secs-num {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-size: 80px;
     color: white;
     margin-top: 40px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    text-align: center;
 }
 
 .countdown-timer {
@@ -57,6 +60,7 @@
     flex-direction: row;
     margin-top: 40px;
     justify-content: space-around;
+    gap: 20px;
 }
 
 .countdown-text {
@@ -78,8 +82,8 @@
 }
 
 #hours-num {
-    padding-left: 55px;
+    padding-left: 1px;
 }
 #mins-num {
-    padding-left: 55px;
+    padding-left: 40px;
 }
