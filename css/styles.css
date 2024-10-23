@@ -26,7 +26,6 @@
     color: white;
     text-align: center;
     margin-top: 100px;
-    zoom: 300%;
 }
 
 .header-2 {
@@ -34,7 +33,6 @@
     color: white;
     text-align: center;
     margin-top: 180px;
-    zoom: 300%;
 }
 
 .header-3 {
@@ -42,7 +40,6 @@
     color: white;
     text-align: center;
     margin-top: 100px;
-    zoom: 300%;
 }
 
 #days-num, #hours-num, #mins-num, #secs-num {
@@ -82,7 +79,6 @@
 .countdown {
     background-color: rgba(0, 0, 0, 0.500);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    zoom: 300%;
 }
 
 #hours-num {
